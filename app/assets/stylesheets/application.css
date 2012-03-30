@@ -1,0 +1,114 @@
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+.code
+{
+    background-color: rgba(247, 247, 247, 0.65);
+    border: 2px solid #999;
+    
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+    width:300px;
+}
+
+h1 {
+  color:#000;
+  font-family:georgia, 'bitstream vera serif', serif;
+  font-size:4.5em;
+  font-weight:normal;
+  letter-spacing:-3px;
+  line-height:1;
+  margin:0;
+  padding:20px 0 8px 0;
+}
+
+.h1 a, h1 a:link, h1 a:visited, h1 a:hover {
+  color:#100;
+  text-decoration:none;
+}
+
+
+
+ul li {
+  list-style-type:none;
+  padding:0.5em 0.5em 0.5em 0;
+}
+
+
+body
+{
+    font-family:"lucida console", "monaco", "andale mono", "bitstream vera sans mono",
+    "consolas", monospace;
+}
+
+ul.steps {
+  font-size:1.4em;
+  font-weight:normal;
+  letter-spacing:2px;
+  text-align:left;
+  padding:0 40px 0.25em 40px;
+  color:#555150;
+  margin: 0 auto 0 auto;
+  left:0;
+  top:0;
+  width: 300px;
+}
+
+ul a, ul a:link, ul a:visited {
+  color:#56534f;
+  text-decoration:none;
+}
+
+.full-centered
+{
+  width:940px;
+  margin:30px auto 30px auto;
+}
+
+#content
+{
+    height: 700px;
+    padding-top:30px;
+    background: #fff url(maintenance1.1-shadowy-light.jpg) no-repeat fixed;
+    background-position:center;
+}
+
+#logo
+{
+    letter-spacing:3px;
+    font-size:1.6em;
+    float:right;
+    text-transform:uppercase;
+}
+
+#footer{ width:600px; margin: 0 auto 40px auto; text-align:center;color: #56534F;}
+
+ul a:hover {
+  color:#000;
+  text-decoration:underline
+}
+
+ul.steps li.sub-step{
+    margin-top:50px; 
+    margin-left:50px;
+}
+
+#logo a
+{
+  text-decoration:none;
+  color:black;
+}
+
+.steps { 
+    padding:0; 
+    margin:0; 
+} 
+
+.steps li { 
+    list-style-type:none; 
+} 

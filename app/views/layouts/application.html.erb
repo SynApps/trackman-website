@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TrackmanWebsite</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="full-centered">
+    <div id="logo">
+      <a href="/"> TrackMan</a>
+    </div>
+  
+
+    <ul id="menu">
+      <li>
+        <a href="https://github.com/jfabre/trackman#readme">Documentation</a>
+      </li>
+      <li>
+        <a href="https://github.com/jfabre/trackman/issues"> Feedback / Bugs </a>
+      </li>
+      <li>
+        <a href="/blog"> Blog </a>
+      </li>
+    </ul>
+  <%= yield %>
+  </div>
+
+</body>
+</html>
