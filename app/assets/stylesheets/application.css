@@ -5,7 +5,7 @@
 
 .code
 {
-    background-color: rgba(247, 247, 247, 0.65);
+    background-color: rgba(247, 247, 247, 0.80);
     border: 2px solid #999;
     
     font-size: 13px;
@@ -14,24 +14,8 @@
     padding: 6px 10px;
     border-radius: 3px;
     width:300px;
+    color: #333;
 }
-
-h1 {
-  color:#000;
-  font-family:georgia, 'bitstream vera serif', serif;
-  font-size:4.5em;
-  font-weight:normal;
-  letter-spacing:-3px;
-  line-height:1;
-  margin:0;
-  padding:20px 0 8px 0;
-}
-
-.h1 a, h1 a:link, h1 a:visited, h1 a:hover {
-  color:#100;
-  text-decoration:none;
-}
-
 
 
 ul li {
@@ -72,9 +56,8 @@ ul a, ul a:link, ul a:visited {
 
 #content
 {
-    height: 700px;
-    padding-top:30px;
-    background: #fff url(maintenance1.1-shadowy-light.jpg) no-repeat fixed;
+    height: 600px;
+    background: #fff url(maintenance1.1-shadowy-light.jpg) no-repeat;
     background-position:center;
 }
 

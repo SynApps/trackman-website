@@ -35,6 +35,12 @@ header, footer, section, article {
 a {
   color: #b83000;
 }
+
+h1
+{
+  font-size: 2.0em;
+}
+
 h1 a {
   color: black;
   text-decoration: none;
@@ -67,6 +73,7 @@ body > header > h1 {
 .post p {
   margin: 10px 0;
 }
+
 .post .more {
   margin-top: -10px;
   margin-right: 30px;
@@ -107,4 +114,36 @@ body > footer {
 	font-style: italic;
   font-size: 18px;
   color: #888;
+}
+
+#blog-logo
+{
+    letter-spacing:3px;
+    font-size:1.6em;
+    float:right;
+    text-transform:uppercase;
+    height:60px;
+    width:100%;
+    text-align:center;
+    font-family: "lucida console", "monaco", "andale mono", "bitstream vera sans mono", "consolas", monospace;
+    margin:30px 0 30px 0;
+}
+
+#blog-logo a
+{
+  text-decoration:none;
+  color:black;
+}
+
+.links
+{
+  margin: 0 0 20px 0;
+  height: 40px;
+  float: left;
+  width: 100%;
+}
+
+.post .blog-link
+{
+  float:left;
 }

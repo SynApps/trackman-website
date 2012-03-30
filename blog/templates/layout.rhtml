@@ -4,15 +4,20 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+
     <title><%= title %></title>
   </head>
   <body>
+    <div id="blog-logo">
+      <a href="/"> TrackMan</a>
+    </div>
     <section>
       <%= yield %> 
     </section>
     <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
+      
     </footer>
+    
   </body>
 </html>
 
