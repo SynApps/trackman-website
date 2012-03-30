@@ -10,6 +10,7 @@ body {
 }
 header, footer, section, article {
 	display: block;
+  color: #444;
 }
 #content {
 }
