@@ -14,7 +14,7 @@
     padding: 6px 10px;
     border-radius: 3px;
     width:300px;
-    color: #333;
+    color: #EF444F;
 }
 
 
@@ -81,10 +81,17 @@ ul.steps li.sub-step{
     margin-left:50px;
 }
 
+#logo img
+{
+	float: left;
+}
+
 #logo a
 {
   text-decoration:none;
-  color:black;
+  color:#EF444F;
+  padding: 44px 20px 20px 0px;
+  float: right;
 }
 
 .steps { 
