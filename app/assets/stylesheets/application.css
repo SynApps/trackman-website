@@ -36,7 +36,7 @@ ul.steps {
   letter-spacing:2px;
   text-align:left;
   padding:0 40px 0.25em 40px;
-  color:#555150;
+  color:#E61E24;
   margin: 0 auto 0 auto;
   left:0;
   top:0;
@@ -67,6 +67,7 @@ ul a, ul a:link, ul a:visited {
     font-size:1.6em;
     float:right;
     text-transform:uppercase;
+    width: 230px;
 }
 
 #footer{ width:600px; margin: 0 auto 40px auto; text-align:center;color: #56534F;}
@@ -89,9 +90,9 @@ ul.steps li.sub-step{
 #logo span
 {
   text-decoration:none;
-  color:#EF444F;
+  color:#E61E24;
   padding: 44px 20px 20px 0px;
-  float: right;
+  float: left;
 }
 
 .steps { 

@@ -12,8 +12,15 @@ header, footer, section, article {
 	display: block;
   color: #444;
 }
-#content {
+.content {
+  margin: 10px 0px 60px 20px;
 }
+
+.content p, .content ul
+{
+  font-size:15px;
+}
+
 #by {
 	font-style: italic;
   margin-right: 5px;
@@ -34,7 +41,7 @@ header, footer, section, article {
   margin-right: 30px;
 }
 a {
-  color: #b83000;
+  color: #E61E24;;
 }
 
 h1
@@ -71,8 +78,8 @@ body > header > h1 {
 .post:last-child {
   margin-bottom: 10px;
 }
-.post p {
-  margin: 10px 0;
+.post p{
+  margin: 10px 0 0 30px;
 }
 
 .post .more {
@@ -89,15 +96,16 @@ body > header {
 	display: block;
 	padding-top: 30px;
 	line-height: 180px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
+
+
 h1, h2, h3, h4 {
-  display: inline;
-  margin: 0;
+  margin: 30px 0 0 0;
   font-weight: 600;
 }
 ul, li {
-  list-style-type: none;
+  list-style-type: circle;
 }
 code {
   font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
@@ -119,21 +127,33 @@ body > footer {
 
 #blog-logo
 {
-    letter-spacing:3px;
-    font-size:1.6em;
-    float:right;
-    text-transform:uppercase;
-    height:60px;
-    width:100%;
-    text-align:center;
-    font-family: "lucida console", "monaco", "andale mono", "bitstream vera sans mono", "consolas", monospace;
-    margin:30px 0 30px 0;
+    margin: 30px auto 10px auto;
+    width: 230px;
+    min-height: 80px;
+}
+
+#blog-logo a img
+{
+  float:left;
 }
 
 #blog-logo a
 {
   text-decoration:none;
   color:black;
+  float:left;
+}
+
+#blog-logo a span
+{
+  letter-spacing:3px;  
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #EF444F;
+  padding: 44px 20px 20px 0px;
+  float: right;
+  font-size: 26px;
+  font-family: "lucida console", "monaco", "andale mono", "bitstream vera sans mono", "consolas", monospace;
 }
 
 .links
@@ -145,6 +165,11 @@ body > footer {
 }
 
 .post .blog-link
+{
+  float:left;
+}
+
+section, section div.more
 {
   float:left;
 }
