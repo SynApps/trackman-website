@@ -1,0 +1,46 @@
+title: Trackman in private beta
+author: Emanuel Petre
+
+<h3>Giving devs control over maintenance and error pages</h3>
+No one likes to maintain error and maintenance pages, they are a pain...
+<ul>
+	<li>They are static and must be hosted elsewhere</li>
+	<li>Their assets must be hosted and linked accordingly</li>
+	<li>You are forced to re-write and maintain a separate css and js file (in most cases they are embeded in your html files).</li>
+	<li>You have to do 2 deployments when you change the master layout of your website</li>
+</ul>
+
+<h4 style="margin: 0 0 0 20px"> Instead why not... </h4>
+<ul>
+	<li>Version those pages with the rest of your app, including linked assets</li>
+	<li>Let Trackman back them up when your app boots (first request after a push)</li>
+	<li>Those pages will now be automatically served on application error or maintenance mode.</li>
+	<li>Hack those pages like you would any other page of your app</li>
+</ul>
+
+All this for a coffee per month.
+
+<h3>Supporting rails only for now</h3>
+<p>
+	We just released a private beta version on heroku.
+	At the moment we are rails 3.2 and 2.x ready<br/>
+	We support ruby 1.9.3 and 1.8.7 out of the box.
+</p>
+<p>
+ 	<a href="https://github.com/SynApps/trackman"> Documentation </a>
+</p>
+
+<h3>Release date</h3>
+<p>
+	We plan on spending around a month in private beta and if all goes well launch in August.
+</p>
+
+<h3>Plans</h3>
+<p> 
+	Our first plan will be the espresso plan and will include all the features we currently have. 
+</p>
+
+<h3>Private beta invites</h3>
+<p>
+	Please contact <a href="admin@synapps-labs.com?subject=private-beta-invite">admin@synapps-labs.com</a>
+</p>
