@@ -1,8 +1,8 @@
-title: Trackman in private beta
-author: Emanuel Petre
+title: Trackman beta available in Heroku
+author: SynApps
 
 <h3>Giving devs control over maintenance and error pages</h3>
-No one likes to maintain error and maintenance pages, they are a pain...
+No one likes to maintain those maintenance pages, they are a pain...
 <ul>
 	<li>They are static and must be hosted elsewhere</li>
 	<li>Their assets must be hosted and linked accordingly</li>
@@ -17,11 +17,11 @@ No one likes to maintain error and maintenance pages, they are a pain...
 	<li>Those pages will now be automatically served on application error or maintenance mode.</li>
 </ul>
 
-We plan on selling this for the price of a coffee per month.
+We plan on selling this service for the price of a coffee per month.
 
 <h3>Supporting rails only for now</h3>
 <p>
-	We just released a private beta version on heroku.
+	We just released the public beta version on heroku.
 	At the moment we are rails 3.2 and 2.x ready<br/>
 	We support ruby 1.9.3 and 1.8.7 out of the box.
 </p>
@@ -31,15 +31,10 @@ We plan on selling this for the price of a coffee per month.
 
 <h3>Release date</h3>
 <p>
-	We plan on spending around a month in private beta and if all goes well launch in August.
+	We plan on spending between 2 weeks a month in private and launch in August.
 </p>
 
 <h3>Plans</h3>
 <p> 
 	Our first plan will be the espresso plan and will include all the features we currently have and more to come.
-</p>
-
-<h3>Private beta invites</h3>
-<p>
-	Please contact <a href="admin@synapps-labs.com?subject=private-beta-invite">admin@synapps-labs.com</a>
 </p>
