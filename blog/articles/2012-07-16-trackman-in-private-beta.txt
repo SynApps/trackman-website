@@ -15,7 +15,6 @@ No one likes to maintain error and maintenance pages, they are a pain...
 	<li>Version those pages with the rest of your app, including linked assets</li>
 	<li>Let Trackman back them up when your app boots (first request after a push)</li>
 	<li>Those pages will now be automatically served on application error or maintenance mode.</li>
-	<li>Hack those pages like you would any other page of your app</li>
 </ul>
 
 All this for a coffee per month.
