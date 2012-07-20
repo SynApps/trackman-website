@@ -17,7 +17,7 @@ No one likes to maintain error and maintenance pages, they are a pain...
 	<li>Those pages will now be automatically served on application error or maintenance mode.</li>
 </ul>
 
-All this for a coffee per month.
+We plan on selling this for the price of a coffee per month.
 
 <h3>Supporting rails only for now</h3>
 <p>
@@ -36,7 +36,7 @@ All this for a coffee per month.
 
 <h3>Plans</h3>
 <p> 
-	Our first plan will be the espresso plan and will include all the features we currently have. 
+	Our first plan will be the espresso plan and will include all the features we currently have and more to come.
 </p>
 
 <h3>Private beta invites</h3>
