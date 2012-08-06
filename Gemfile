@@ -7,7 +7,7 @@ gem 'rails', '3.2.0'
 
 gem 'rdiscount'
 gem 'toto'
-
+gem 'trackman'
 
 group :development do
   gem 'sqlite3'
