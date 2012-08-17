@@ -1,0 +1,46 @@
+title: Trackman Beta Available in Heroku
+author: SynApps
+
+<h3>Giving devs control over maintenance and error pages</h3>
+No one likes to maintain those pages, they are a pain for every developer...
+<ul>
+	<li>They are static and must be hosted elsewhere</li>
+	<li>Their assets must be hosted and linked accordingly</li>
+	<li>They force you to re-write and maintain separate css and js files </br> which, in most cases, are embedded in your html files</li>
+	<li>They force you to perform 2 deployments when you change the layout of your website</li>
+</ul>
+
+<h4 style="margin: 0 0 0 20px"> Instead, why not... </h4>
+<ul>
+	<li>Version those pages with the rest of your app, including linked assets</li>
+	<li>Let Trackman deploy everything when you do</li>
+	<li>Those pages will now be served when needed (application error or maintenance mode)</li>
+</ul>
+
+We plan on offering <a href="https://addons.heroku.com/trackman"> the base plan </a> for a monthly price of a cup of coffee.
+
+<h3>Supporting rails on heroku for now</h3>
+<p>
+	We have just released the public beta version on heroku.
+	At this writing, we are rails 3.2 and 2.3.x ready.<br/>
+	We support Ruby 1.9.3 and 1.8.7 Out-of-the-Box.
+</p>
+<p>
+	However, we will gladly accept version <a href="https://github.com/SynApps/trackman/issues"> support requests </a> if they do not require an exhaustive refactoring.
+</p>
+<p>
+	<ul>
+ 		<li><a href="https://github.com/SynApps/trackman"> Gihub </a></li>
+ 		<li><a href="https://devcenter.heroku.com/articles/trackman"> Heroku documentation </a></li>
+ </ul>
+</p>
+
+<p>
+	<h5>Here are a few ideas we might work on in the future...(they highly depend on user feedback).</h5>
+	<ul>
+		<li>Support for erb, haml and allow use of layout pages</li>
+		<li>Support for other languages and frameworks</li>
+		<li>Porting on other platforms such as engine yard</li>
+		<li>Support for 404 and 500 pages</li>
+	</ul>
+</p>
